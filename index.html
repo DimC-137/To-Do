@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Metal+Mania&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pirata+One&display=swap" rel="stylesheet">
+    <title>Taskmaster3000</title>
+</head>
+<body>
+    <section class="main" data-main-section>
+        <h1>Taskmaster<span style="color: crimson">3000</span></h1>
+        <div class="maincontent" data-main-section-content>
+            <div class="inputdiv" data-input-div>
+                <input type="text" placeholder="Enter Your task here" data-input-text>
+                <select data-task-priority-selector>
+                    <!-- <option class="urgent" data-task-priority data-button-urgent value ="1">Urgent!</option>
+                    <option class="normal" data-task-priority data-button-normal value ="2">Normal</option>
+                    <option class="forget" data-task-priority data-button-forget value ="3">Fugetaboutit</option> -->
+                </select>
+                <button class="addbutton" data-add-task>COMMIT</button>
+            </div>
+            <div class="tasklistdiv">
+                <ul class="tasklistul" data-task-list>
+                    <!-- <li class="tasklistli">
+                        <div class="box" >
+                            <button data-id="" class="done" ${done ? 'disabled' : ''} data-task-button-done>Done</button>
+                            <div class="task" data-task-text>Išnešt šiukšles.</div>
+                            <button class="save" data-task-button-save>Save</button>
+                            <button class="delete" data-task-button-delete>Delete</button>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
